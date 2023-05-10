@@ -36,7 +36,7 @@ const SubscriptionPage = () => {
       }
     )
       .then((res) => {
-        setCode(`http://localhost:5173/payment/${res.data.id}`);
+        setCode(`${hostServer}/payment/${res.data.id}`);
         setPaymentId(res.data.id);
       })
       .catch((err) => {
