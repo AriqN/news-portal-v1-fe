@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #EDEDED;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F6F6F6;
+  }
+
+  th{
+    height: 63px;
+  }
+  td{
+    height: 48px;
+  }
+.table-container{
+    width: 100%;
+    max-height: 543px;
+    overflow: scroll;
+    margin-bottom: 107px;
+}
+.admin-posts-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 0;
+    border: none;
+    margin: 0 auto;
+}
+.admin-posts-button button{
+    width: 128px;
+    font-size: 0.8em; 
+    border-radius: 4px;      
+    height: 28px; 
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,95 @@
+.button-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .able {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #AB0E17;     
+    color:#fff;             
+    transition: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .able:hover{
+    background-color: #1A3062;
+    border: none;
+  }
+  
+  .edit-post {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #1A3062;     
+    color:#fff;             
+    transition: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .edit-post:hover{
+    border: 1px solid #AB0E17;
+    
+  }
+  .submit-btn {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #1A3062;     
+    color:#fff;             
+    transition: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover{
+    border: 1px solid #AB0E17;
+    
+  }
+  .cancel-btn {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #AB0E17;     
+    color:#fff;             
+    transition: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .cancel-btn:hover{
+    border: 1px solid #1A3062;
+    
+  }
+  .delete-post {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #AB0E17;     
+    color:#fff;             
+    transition: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .delete-post:hover{
+    border: 1px solid #1A3062;
+    
+  }
+
+  .btn-disabled{
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    background-color: #4f4f4f;
+    color: #fff;
+    border: none;
+    cursor:default;
+  }

@@ -1,0 +1,10 @@
+.admin-news{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    &__create{
+        width: 30%;
+        height: 90%;
+    }
+}

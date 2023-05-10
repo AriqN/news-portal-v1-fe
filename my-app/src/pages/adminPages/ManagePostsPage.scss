@@ -1,0 +1,30 @@
+.manage-post-container{
+    width: 1440px;
+    height: 1080px;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.manage-post{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    &__head{
+        width: 100%;
+        height: 20%;
+        &__title{
+            text-align: left;
+            font-size: 2em;
+        }
+    }
+    &__body{
+        width: 100%;
+        height: 80%;
+    }
+}
