@@ -61,5 +61,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": "^5.57.1",
+    "fork-ts-checker-webpack-plugin": "^6.5.3",
+    "typescript": "^5.0.2"
   }
 }
