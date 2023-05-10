@@ -10,9 +10,7 @@ type IAuthContext = {
 
 const initialValue = {
   authenticated: false,
-  setAuthenticated: () => {
-    null;
-  },
+  setAuthenticated: () => {},
 };
 
 const AuthContext = createContext<IAuthContext>(initialValue);
